@@ -1,6 +1,6 @@
 /* == mobile menu == */
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 720px) {
     #btn-mobile {
         display: block;
         background: none;
@@ -79,7 +79,6 @@
     .header-primary {
         max-width: 1140px;
     }
-
 }
 
 /* Desktop 960px */
@@ -87,7 +86,6 @@
     .header-primary {
         max-width: 960px;
     }
-
 }
 
 /* Tablet 720px */
@@ -102,10 +100,19 @@
         text-align: center;
     }
 
+    .hero img {
+        display: none;
+    }
+
     .hero h1 {
         max-width: 100%;
     }
 
+    /* About */
+    .about {
+        text-align: center;
+        gap: 60px;
+    }
 }
 
 /* Phone 388px */

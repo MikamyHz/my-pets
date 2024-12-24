@@ -76,7 +76,15 @@ h4 {
     align-items: center;
 }
 
-.social-media {
+/* Titles */
+
+.title {
+    font-size: var(--h1);
+    line-height: 1;
+    color: var(--dark);
+}
+
+/* .social-media {
     display: flex;
     gap: 16px;
 }
@@ -94,7 +102,7 @@ h4 {
     background-color: var(--primary-dark);
     transform: translate(-2px);
     border-radius: 30px;
-}
+} */
 
 .btn {
     display: inline-block;
